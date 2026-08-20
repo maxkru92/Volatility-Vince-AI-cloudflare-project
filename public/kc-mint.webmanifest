@@ -1,0 +1,27 @@
+{
+  "name": "Krupp Capital",
+  "short_name": "KC",
+  "description": "Positive Flow Edge",
+  "icons": [
+    {
+      "src": "/kc-mint-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/kc-mint-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/kc-mint.svg",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#00d99a",
+  "background_color": "#00d99a",
+  "display": "standalone"
+}

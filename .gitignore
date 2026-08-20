@@ -1,16 +1,65 @@
-node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
 .DS_Store
-*.log
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
 .vercel
-.env
-.env.local
-# Exclude raw _render.py pack artefacts; KEEP deployed canonical names tracked.
-kc-*-[0-9]*.png
-kc-*.svg
-kc-*.ico
-kc-*-adaptive.xml
-manifest-*.webmanifest
-kc-*-fg.png
-kc-*-bg.png
-# keep public/ tracked even between scaffolds
-!public/.gitkeep
+
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+local-*
+.claude
+.z-ai-config
+*.log
+dev.log
+dev.out.log
+test
+prompt
+
+server.log
+# Skills directory
+/skills/
+
+# Cloudflare OpenNext build artifacts
+.open-next/
+.wrangler/
+cloudflare-env.d.ts
+
+*.db
+
+*.db-journal
+
+worklog.md
