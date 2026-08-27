@@ -25,7 +25,7 @@ const jetbrainsMono = JetBrains_Mono({
   weight: ["400", "500", "600", "700"],
 });
 
-const SITE_URL = "https://kruppcapital.com";
+const SITE_URL = "https://volatility-vince-ai-cloudflare-project.pages.dev";
 const TWITTER = "@kruppcapital";
 
 export const metadata: Metadata = {
@@ -87,7 +87,8 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Volatility Vince — Quant Intelligence Telegram Chatbot",
+        type: "image/png",
+        alt: "VolatilityVinceAI — A hedgefund quant engine & research desk. Wired into a chatbot.",
       },
     ],
   },
